@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap%27');
+
+p {
+    display: flex;
+
+    margin: 0;
+}
+
+input[type=radio] {
+    display: none;
+}
+
+#main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+    user-select: none;
+}
+
+/* panel */
+#panel {
+    background-color: #141313ab;
+
+    padding: 30px;
+    border-radius: 7px;
+
+    display: none;
+
+	text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+
+#title {
+    color: white;
+
+    margin: 0;
+}
+
+#watermark {
+    color: gray;
+}
+
+#buttons {
+    display: flex;
+    justify-content: space-between;
+
+    margin: 15px 0 10px 0;
+}
+
+.color-button {
+    display: flex;
+
+    padding: 10px;
+
+    cursor: pointer;
+
+    transition: background-color .35s;
+
+    border-radius: 100%;
+}
+
+input[type=radio]:checked + .color-button {
+    background-color: #800000;
+}
+
+/* status */
+#status {
+    display: grid;
+    grid-row-gap: 0.3em;
+
+    position: absolute;
+    bottom: 2px;
+    left: 270px;
+
+    min-width: 340px;
+
+    transition: justify-content 1s;
+}
+
+.status-svg {
+    width: 40px;
+    height: 40px;
+
+    margin-right: 2px;
+}
+
+.status-img {
+    width: 40px;
+    height: 40px;
+    margin-right: 2px;
+}
+
+.status-circle {
+    stroke: #800000;
+    stroke-width: 3.5px;
+
+    transform: rotate(-90deg);
+  	transform-origin: 50% 50%;
+
+    transition: stroke-dashoffset .35s;
+}
