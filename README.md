@@ -1,5 +1,5 @@
 # MiHud
-🧠 A clean, beautiful, responsive fivem hud\n
+🧠 A clean, beautiful, responsive fivem hud\
 :star: Star me on GitHub — it helps!
 
 ## Features 📋
