@@ -27,7 +27,7 @@
 
 # Screenshoot
 
-![image](https://user-images.githubusercontent.com/70980195/173856132-f18a13c7-e33a-4f14-b82f-5bf5e5461533.png)
+![mihud](https://user-images.githubusercontent.com/70980195/174050971-182ae798-c35f-4b29-b75d-4fe51623b324.jpg)
 
 
 ## License 📄
